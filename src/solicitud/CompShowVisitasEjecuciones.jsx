@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const URI = 'http://localhost:3000/api/visitas/'
+const URI = 'https://backend-1-6p5l.onrender.com/api/visitas/'
 
 const CompShowVisitasEjecuciones = () => {
     const [solicitudes, setSolicitudes] = useState([])
