@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import DataTable from 'react-data-table-component'
 import { FaTrash, FaEdit } from 'react-icons/fa'
 import { FaEye } from 'react-icons/fa'
-const URI = 'http://localhost:3000/api/servicios/'
+const URI = 'https://backend-1-6p5l.onrender.com/api/servicios/'
 
 const CompShowSolicitudes = () => {
   const [solicitudes, setSolicitudes] = useState([])
