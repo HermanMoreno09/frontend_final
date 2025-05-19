@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const URI = 'http://localhost:3000/api/visitas/'
+const URI = 'https://backend-1-6p5l.onrender.com/api/visitas/'
 
 const CompCreateVisitaEjecucion = () => {
     const [solicitud_id, setSolicitudId] = useState('')
